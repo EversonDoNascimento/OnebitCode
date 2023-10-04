@@ -54,3 +54,14 @@ const createUser = ({ name, nacionality }) => {
   return { name, nacionality };
 };
 console.log(createUser(user));
+
+const users = [
+  { name: "Augusto", age: 52 },
+  { name: "Maria", age: 32 },
+  { name: "Carlos", age: 23 },
+];
+
+const [user1, user2, user3] = users;
+const { name } = user1;
+
+console.log(name);
