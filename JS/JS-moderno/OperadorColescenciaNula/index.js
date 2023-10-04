@@ -25,7 +25,7 @@ let x = 0;
 x = person.data?.age;
 console.log(x);
 
-const f = (...{ n, p }) => {
+const f = ({ n, p }) => {
   return { n, p };
 };
 
