@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "nodemon": "^3.0.1"
+  }
+}
