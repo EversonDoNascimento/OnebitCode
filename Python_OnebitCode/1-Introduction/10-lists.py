@@ -16,3 +16,9 @@ print(gameList[:3])
 
 # 4 - Search games of a position in next
 print(gameList[1:4])
+
+list = ["Everton", "Everson"]
+
+
+for i, item in enumerate(list):
+    print(f"{i} {item}")

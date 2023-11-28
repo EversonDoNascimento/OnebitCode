@@ -40,3 +40,10 @@ pp.pprint(games["Resident Evil 7"])
 # 4 - Remove a dictionary
 del games["Fifa"]
 pp.pprint(games)
+
+title = input("name: ")
+year = int(input("year: "))
+game_name = input("name game: ")
+
+games[game_name] = {"title": title, "year": year}
+pp.pprint(games)
